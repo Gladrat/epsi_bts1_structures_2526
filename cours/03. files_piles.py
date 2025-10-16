@@ -17,9 +17,9 @@
 
 print(len([1, 2, 3, len([4, 5, 6]), [7, 8, 9].pop()]))
 
-()
-()()
-[(([{[]()}, {()}]))([])]
+# ()
+# ()()
+# [(([{[]()}, {()}]))([])]
 
 # Vous devez construire un analyseur syntaxique
     # () : True
@@ -28,4 +28,7 @@ print(len([1, 2, 3, len([4, 5, 6]), [7, 8, 9].pop()]))
     # (() : False
     # )( : False
 
-    
+def une_fonction(x):
+    print(x)
+
+une_fonction(42)
