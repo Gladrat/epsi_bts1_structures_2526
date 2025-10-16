@@ -7,3 +7,8 @@ temperatures = [
     [16, 15, 15, 14, 14, 16, 17, 19, 21, 24, 26, 27, 28, 28, 27, 26, 25, 24, 22, 21, 20, 18, 17, 16],
     [15, 14, 14, 13, 12, 14, 15, 17, 19, 22, 24, 25, 26, 26, 25, 24, 23, 22, 21, 20, 19, 17, 16, 15]
 ]
+
+# Afficher PROPREMENT :
+    # Quelle température à midi le mercredi ?
+    # Afficher toutes les températures
+    # Afficher la moyenne des températures sur un jour (idéalement dans une fonction)
