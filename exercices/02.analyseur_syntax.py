@@ -5,7 +5,11 @@
     # (() : False
     # )( : False
 
-def une_fonction(x):
+def analyseur_syntaxique(x):
     print(x)
 
-une_fonction(42)
+analyseur_syntaxique("()")
+analyseur_syntaxique("()()")
+analyseur_syntaxique("(())")
+analyseur_syntaxique("(()")
+analyseur_syntaxique(")(")
