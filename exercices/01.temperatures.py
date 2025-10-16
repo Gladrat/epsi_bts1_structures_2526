@@ -9,6 +9,9 @@ temperatures = [
 ]
 
 # Afficher PROPREMENT :
+    # Vérifier qu'il y a bien 24 températures pour chaque jour
     # Quelle température à midi le mercredi ?
     # Afficher toutes les températures
     # Afficher la moyenne des températures sur un jour (idéalement dans une fonction)
+
+    
