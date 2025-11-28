@@ -1,5 +1,11 @@
 from collections import deque
 
+file: dict[deque[tuple[str, str]]] = {
+    1: deque(),
+    2: deque(),
+    3: deque()
+}
+
 
 def ajouter_demande(file_attente: deque[tuple[str, str]], client: str, demande: str) -> deque[tuple[str, str]]:
     file_attente.append((client, demande))
