@@ -35,8 +35,3 @@ file = ajouter_demande(file, "Client 3", "Licence office désactivée")
 file = ajouter_demande(file, "Client 1", "Ma souris a disparue")
 file = ajouter_demande(file, 12, "Hello ?")
 afficher_file_attente(file)
-
-
-("Client 3", "Office est désactivé", 1)
-("Client 1", "Office est désactivé", 3)
-("Client 2", "Office est désactivé", 1)
