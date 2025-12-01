@@ -18,6 +18,10 @@ def insert(hm, key, value):
             hm[index] = value
             return hm
 
+    # Afficher les collisions en direct
+    # if len(hm[index]) > 0:
+    #     print("Collision:", key, value)
+
     hm[index].append([key, value])
     return hm
 
@@ -33,12 +37,12 @@ def search(hm, key):
 
 
 def delete(hm, key):
-    # Récupérer l'index du bucket
     index = hachage_simple(key, hm)
     bucket = hm[index]
 
-    # Récupérer l'indice de l'emplacement de la clef dans le bucket
-    # del bucket[i]
+    for i, (k, v) in enumerate(bucket):
+        if k == key:
+            del bucket[i]
 
     return hm
 
@@ -60,3 +64,5 @@ pprint(hm)
 hm = delete(hm, "GT")
 hm = delete(hm, "FR")
 pprint(hm)
+
+# def compter_collision(hm)
