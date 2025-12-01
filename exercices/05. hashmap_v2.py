@@ -33,9 +33,14 @@ def search(hm, key):
 
 
 def delete(hm, key):
+    # Récupérer l'index du bucket
     index = hachage_simple(key, hm)
+    bucket = hm[index]
 
-    # ...
+    # Récupérer l'indice de l'emplacement de la clef dans le bucket
+    # del bucket[i]
+
+    return hm
 
 
 hm = createHashmap()
@@ -50,3 +55,8 @@ hm = insert(hm, "EE", "Estonie")
 pprint(hm)
 
 print(search(hm, "GT"))
+pprint(hm)
+
+hm = delete(hm, "GT")
+hm = delete(hm, "FR")
+pprint(hm)
