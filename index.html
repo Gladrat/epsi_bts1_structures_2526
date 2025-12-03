@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+
+    <div>
+      <p>Mon menu:</p>
+      <ul>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          est, quas iure eaque reprehenderit facilis quis doloremque. Est quidem
+          quos non cupiditate quam dolor dolorum, nisi consequatur
+          necessitatibus praesentium unde?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          est, quas iure eaque reprehenderit facilis quis doloremque. Est quidem
+          quos non cupiditate quam dolor dolorum, nisi consequatur
+          necessitatibus praesentium unde?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          est, quas iure eaque reprehenderit facilis quis doloremque. Est quidem
+          quos non cupiditate quam dolor dolorum, nisi consequatur
+          necessitatibus praesentium unde?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          est, quas iure eaque reprehenderit facilis quis doloremque. Est quidem
+          quos non cupiditate quam dolor dolorum, nisi consequatur
+          necessitatibus praesentium unde?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          est, quas iure eaque reprehenderit facilis quis doloremque. Est quidem
+          quos non cupiditate quam dolor dolorum, nisi consequatur
+          necessitatibus praesentium unde?
+        </li>
+      </ul>
+    </div>
+    <script>
+      const b = document.createElement("button");
+      b.textContent = "Click me!";
+      b.style.backgroundColor = "purple";
+
+      console.log(b);
+
+      document.body.appendChild(b)
+
+      console.log(document.querySelector("button"));
+
+      setTimeout(() => {
+        document.querySelector("button").remove()
+      }, 3000)
+      
+    </script>
+  </body>
+</html>
