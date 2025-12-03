@@ -11,5 +11,5 @@ async def sleep_sort(values):
     await asyncio.gather(*tasks)
 
 
-n = [100000, 1]
+n = [4, 7, 1, 2, 1]
 asyncio.run(sleep_sort(n))
